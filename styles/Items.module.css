@@ -314,31 +314,35 @@
 }
 
 .alchemist {
-    color: #5ea819;
+    color: #81d434;
+}
+
+.shaman {
+    color: #009900;
 }
 
 .warrior {
-    color: #db2445;
+    color: #d32818;
 }
 
 .cleric {
-    color: #fcc443;
+    color: #ffc644;
 }
 
 .rogue {
-    color: #35383c;
+    color: #36393d;
 }
 
 .mage {
-    color: #a11ecc;
+    color: #a129d3;
 }
 
 .scout {
-    color: #2488c6;
+    color: #59b4eb;
 }
 
 .warlock {
-    color: #c524b7;
+    color: #f0489e;
 }
 
 .generalist {

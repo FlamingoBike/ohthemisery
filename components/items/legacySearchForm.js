@@ -5,7 +5,7 @@ import React from 'react'
 import TranslatableText from '../translatableText'
 import extras from '../../public/items/extras.json';
 
-const charmClasses = ["Any Class", "Alchemist", "Mage", "Warlock", "Rogue", "Warrior", "Cleric", "Scout", "Generalist"]
+const charmClasses = ["Any Class", "Alchemist", "Mage", "Warlock", "Rogue", "Warrior", "Cleric", "Scout", "Shaman", "Generalist"]
 
 let sortableStats = ["-"];
 let regions = ["Any Region"];

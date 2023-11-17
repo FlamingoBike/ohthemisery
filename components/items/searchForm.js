@@ -22,7 +22,7 @@ export default function SearchForm({ update, itemData }) {
         "Projectile", "Offhand Shield", "Mainhand Shield", "Mainhand Sword",
         "Offhand Sword", "Mainhand", "Offhand", "Consumable", "Misc", "Charm"];
     const charmClasses = ["Alchemist", "Mage", "Warlock", "Rogue", "Warrior",
-        "Cleric", "Scout", "Generalist"];
+        "Cleric", "Scout", "Shaman", "Generalist"];
     let sortableStats = [];
     let regions = [];
     let tiers = [];
