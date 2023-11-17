@@ -56,34 +56,42 @@
 }
 
 .monumenta-Barbed-Spore-Pouch {
-	background-position: 0 -64px;
+	background-position: -768px 0;
 }
 
 .monumenta-Bermudas-Lost-Ruler {
-	background-position: -64px -64px;
+	background-position: -832px 0;
+}
+
+.monumenta-Bewildered-Eye {
+	background-position: 0 -64px;
 }
 
 .monumenta-Bewitched-Eye {
-	background-position: -128px -64px;
+	background-position: -64px -64px;
 }
 
 .monumenta-Bloodborne-Locket {
-	background-position: -192px -64px;
+	background-position: -128px -64px;
 }
 
 .monumenta-Bloodhounds-Crest {
-	background-position: -256px -64px;
+	background-position: -192px -64px;
 }
 
 .monumenta-Bloodletters-Blade {
-	background-position: -320px -64px;
+	background-position: -256px -64px;
 }
 
 .monumenta-Bloodlust {
-	background-position: -384px -64px;
+	background-position: -320px -64px;
 }
 
 .monumenta-Bottled-Infinity {
+	background-position: -384px -64px;
+}
+
+.monumenta-Brines-Gambit {
 	background-position: -448px -64px;
 }
 
@@ -95,487 +103,611 @@
 	background-position: -576px -64px;
 }
 
-.monumenta-Cleric-Charm-1 {
+.monumenta-Charm-Epic-1 {
 	background-position: -640px -64px;
 }
 
-.monumenta-Cleric-Charm-2 {
+.monumenta-Charm-Epic-2 {
 	background-position: -704px -64px;
 }
 
-.monumenta-Cleric-Charm-3 {
+.monumenta-Charm-Epic-3 {
+	background-position: -768px -64px;
+}
+
+.monumenta-Charm-Epic-4 {
+	background-position: -832px -64px;
+}
+
+.monumenta-Charm-Epic-5 {
 	background-position: 0 -128px;
 }
 
-.monumenta-Cleric-Charm-4 {
+.monumenta-Cleric-Charm-1 {
 	background-position: -64px -128px;
 }
 
-.monumenta-Cleric-Charm-5 {
+.monumenta-Cleric-Charm-2 {
 	background-position: -128px -128px;
 }
 
-.monumenta-Cleric-Charm-Rare-1 {
+.monumenta-Cleric-Charm-3 {
 	background-position: -192px -128px;
 }
 
-.monumenta-Cleric-Charm-Rare-2 {
+.monumenta-Cleric-Charm-4 {
 	background-position: -256px -128px;
 }
 
-.monumenta-Cleric-Charm-Rare-3 {
+.monumenta-Cleric-Charm-5 {
 	background-position: -320px -128px;
 }
 
-.monumenta-Cleric-Charm-Rare-4 {
+.monumenta-Cleric-Charm-Rare-1 {
 	background-position: -384px -128px;
 }
 
-.monumenta-Cleric-Charm-Rare-5 {
+.monumenta-Cleric-Charm-Rare-2 {
 	background-position: -448px -128px;
 }
 
-.monumenta-Cold-Steel {
+.monumenta-Cleric-Charm-Rare-3 {
 	background-position: -512px -128px;
 }
 
-.monumenta-Copper-Furnace {
+.monumenta-Cleric-Charm-Rare-4 {
 	background-position: -576px -128px;
 }
 
-.monumenta-Cracked-Pocketwatch {
+.monumenta-Cleric-Charm-Rare-5 {
 	background-position: -640px -128px;
 }
 
-.monumenta-Cry-Havoc {
+.monumenta-Cold-Steel {
 	background-position: -704px -128px;
 }
 
-.monumenta-Deepslate-Chunk {
+.monumenta-Contorting-Blade {
+	background-position: -768px -128px;
+}
+
+.monumenta-Copper-Furnace {
+	background-position: -832px -128px;
+}
+
+.monumenta-Cracked-Pocketwatch {
 	background-position: 0 -192px;
 }
 
-.monumenta-Dragons-Eye {
+.monumenta-Cry-Havoc {
 	background-position: -64px -192px;
 }
 
-.monumenta-Duelists-Sigil {
+.monumenta-Deepslate-Chunk {
 	background-position: -128px -192px;
 }
 
-.monumenta-Earthquake-Staff {
+.monumenta-Deepwrought-Ruby {
 	background-position: -192px -192px;
 }
 
-.monumenta-Echo-of-the-Beast {
+.monumenta-Dragons-Eye {
 	background-position: -256px -192px;
 }
 
-.monumenta-Emerald-Lens {
+.monumenta-Duelists-Sigil {
 	background-position: -320px -192px;
 }
 
-.monumenta-Epic-Charm-1 {
+.monumenta-Earthquake-Staff {
 	background-position: -384px -192px;
 }
 
-.monumenta-Epic-Charm-2 {
+.monumenta-Echo-of-the-Beast {
 	background-position: -448px -192px;
 }
 
-.monumenta-Epic-Charm-3 {
+.monumenta-Emerald-Lens {
 	background-position: -512px -192px;
 }
 
-.monumenta-Epic-Charm-4 {
+.monumenta-Epic-Charm-1 {
 	background-position: -576px -192px;
 }
 
-.monumenta-Epic-Charm-5 {
+.monumenta-Epic-Charm-2 {
 	background-position: -640px -192px;
 }
 
-.monumenta-Event-Horizon {
+.monumenta-Epic-Charm-3 {
 	background-position: -704px -192px;
 }
 
-.monumenta-Everflow-Pendant {
+.monumenta-Epic-Charm-4 {
+	background-position: -768px -192px;
+}
+
+.monumenta-Epic-Charm-5 {
+	background-position: -832px -192px;
+}
+
+.monumenta-Event-Horizon {
 	background-position: 0 -256px;
 }
 
-.monumenta-Explosive-Reagent {
+.monumenta-Everflow-Pendant {
 	background-position: -64px -256px;
 }
 
-.monumenta-Fecund-Berry {
+.monumenta-Explosive-Reagent {
 	background-position: -128px -256px;
 }
 
-.monumenta-Fecund-Berry-Basket {
+.monumenta-Explosive-Spore {
 	background-position: -192px -256px;
 }
 
-.monumenta-Fox-Frenzy {
+.monumenta-Fecund-Berry {
 	background-position: -256px -256px;
 }
 
-.monumenta-Fungal-Fortitude {
+.monumenta-Fecund-Berry-Basket {
 	background-position: -320px -256px;
 }
 
-.monumenta-Gen-Charm-1 {
+.monumenta-Fox-Frenzy {
 	background-position: -384px -256px;
 }
 
-.monumenta-Gen-Charm-2 {
+.monumenta-Fungal-Fortitude {
 	background-position: -448px -256px;
 }
 
-.monumenta-Gen-Charm-3 {
+.monumenta-Gears-of-the-King {
 	background-position: -512px -256px;
 }
 
-.monumenta-Gen-Charm-4 {
+.monumenta-Gen-Charm-1 {
 	background-position: -576px -256px;
 }
 
-.monumenta-Gen-Charm-5 {
+.monumenta-Gen-Charm-2 {
 	background-position: -640px -256px;
 }
 
-.monumenta-Gen-Charm-Rare-1 {
+.monumenta-Gen-Charm-3 {
 	background-position: -704px -256px;
 }
 
-.monumenta-Gen-Charm-Rare-2 {
+.monumenta-Gen-Charm-4 {
+	background-position: -768px -256px;
+}
+
+.monumenta-Gen-Charm-5 {
+	background-position: -832px -256px;
+}
+
+.monumenta-Gen-Charm-Rare-1 {
 	background-position: 0 -320px;
 }
 
-.monumenta-Gen-Charm-Rare-3 {
+.monumenta-Gen-Charm-Rare-2 {
 	background-position: -64px -320px;
 }
 
-.monumenta-Gen-Charm-Rare-4 {
+.monumenta-Gen-Charm-Rare-3 {
 	background-position: -128px -320px;
 }
 
-.monumenta-Gen-Charm-Rare-5 {
+.monumenta-Gen-Charm-Rare-4 {
 	background-position: -192px -320px;
 }
 
-.monumenta-Guiding-Moonlight {
+.monumenta-Gen-Charm-Rare-5 {
 	background-position: -256px -320px;
 }
 
-.monumenta-Hexblade {
+.monumenta-Guiding-Moonlight {
 	background-position: -320px -320px;
 }
 
-.monumenta-Hydraulic-Chausses {
+.monumenta-Heretical-Ore {
 	background-position: -384px -320px;
 }
 
-.monumenta-Imperial-Jewel {
+.monumenta-Hexblade {
 	background-position: -448px -320px;
 }
 
-.monumenta-Keter-Core {
+.monumenta-Hydraulic-Chausses {
 	background-position: -512px -320px;
 }
 
-.monumenta-Laser-Attachment {
+.monumenta-Hypercharged-Blade {
 	background-position: -576px -320px;
 }
 
-.monumenta-Mage-Charm-1 {
+.monumenta-Imperial-Jewel {
 	background-position: -640px -320px;
 }
 
-.monumenta-Mage-Charm-2 {
+.monumenta-Keter-Core {
 	background-position: -704px -320px;
 }
 
-.monumenta-Mage-Charm-3 {
+.monumenta-Laser-Attachment {
+	background-position: -768px -320px;
+}
+
+.monumenta-Looming-Demise {
+	background-position: -832px -320px;
+}
+
+.monumenta-Mage-Charm-1 {
 	background-position: 0 -384px;
 }
 
-.monumenta-Mage-Charm-4 {
+.monumenta-Mage-Charm-2 {
 	background-position: -64px -384px;
 }
 
-.monumenta-Mage-Charm-5 {
+.monumenta-Mage-Charm-3 {
 	background-position: -128px -384px;
 }
 
-.monumenta-Mage-Charm-Rare-1 {
+.monumenta-Mage-Charm-4 {
 	background-position: -192px -384px;
 }
 
-.monumenta-Mage-Charm-Rare-2 {
+.monumenta-Mage-Charm-5 {
 	background-position: -256px -384px;
 }
 
-.monumenta-Mage-Charm-Rare-3 {
+.monumenta-Mage-Charm-Rare-1 {
 	background-position: -320px -384px;
 }
 
-.monumenta-Mage-Charm-Rare-4 {
+.monumenta-Mage-Charm-Rare-2 {
 	background-position: -384px -384px;
 }
 
-.monumenta-Mage-Charm-Rare-5 {
+.monumenta-Mage-Charm-Rare-3 {
 	background-position: -448px -384px;
 }
 
-.monumenta-Manaleaf-Razor {
+.monumenta-Mage-Charm-Rare-4 {
 	background-position: -512px -384px;
 }
 
-.monumenta-Molldyers-Chalk {
+.monumenta-Mage-Charm-Rare-5 {
 	background-position: -576px -384px;
 }
 
-.monumenta-Molten-Meteorite {
+.monumenta-Malhuer-Reach {
 	background-position: -640px -384px;
 }
 
-.monumenta-Morels-Bracers {
+.monumenta-Manaleaf-Razor {
 	background-position: -704px -384px;
 }
 
-.monumenta-Mourning-Star {
+.monumenta-Maskeds-Black-Knife {
+	background-position: -768px -384px;
+}
+
+.monumenta-Molldyers-Chalk {
+	background-position: -832px -384px;
+}
+
+.monumenta-Molten-Meteorite {
 	background-position: 0 -448px;
 }
 
-.monumenta-Mycelian-Serum {
+.monumenta-Morels-Bracers {
 	background-position: -64px -448px;
 }
 
-.monumenta-Nihilo-Core {
+.monumenta-Mourning-Star {
 	background-position: -128px -448px;
 }
 
-.monumenta-Pious-Prism {
+.monumenta-Mycelian-Serum {
 	background-position: -192px -448px;
 }
 
-.monumenta-Pressure-Gauntlet {
+.monumenta-Nihilo-Core {
 	background-position: -256px -448px;
 }
 
-.monumenta-Regenerating-Chalk {
+.monumenta-Peakborn-Windchime {
 	background-position: -320px -448px;
 }
 
-.monumenta-Rocket-Boots {
+.monumenta-Pious-Prism {
 	background-position: -384px -448px;
 }
 
-.monumenta-Rogue-Charm-1 {
+.monumenta-Pressure-Gauntlet {
 	background-position: -448px -448px;
 }
 
-.monumenta-Rogue-Charm-2 {
+.monumenta-Prismatic-Aegis {
 	background-position: -512px -448px;
 }
 
-.monumenta-Rogue-Charm-3 {
+.monumenta-Regenerating-Chalk {
 	background-position: -576px -448px;
 }
 
-.monumenta-Rogue-Charm-4 {
+.monumenta-Rocket-Boots {
 	background-position: -640px -448px;
 }
 
-.monumenta-Rogue-Charm-5 {
+.monumenta-Rogue-Charm-1 {
 	background-position: -704px -448px;
 }
 
-.monumenta-Rogue-Charm-Rare-1 {
+.monumenta-Rogue-Charm-2 {
+	background-position: -768px -448px;
+}
+
+.monumenta-Rogue-Charm-3 {
+	background-position: -832px -448px;
+}
+
+.monumenta-Rogue-Charm-4 {
 	background-position: 0 -512px;
 }
 
-.monumenta-Rogue-Charm-Rare-2 {
+.monumenta-Rogue-Charm-5 {
 	background-position: -64px -512px;
 }
 
-.monumenta-Rogue-Charm-Rare-3 {
+.monumenta-Rogue-Charm-Rare-1 {
 	background-position: -128px -512px;
 }
 
-.monumenta-Rogue-Charm-Rare-4 {
+.monumenta-Rogue-Charm-Rare-2 {
 	background-position: -192px -512px;
 }
 
-.monumenta-Rogue-Charm-Rare-5 {
+.monumenta-Rogue-Charm-Rare-3 {
 	background-position: -256px -512px;
 }
 
-.monumenta-Royal-Jewel {
+.monumenta-Rogue-Charm-Rare-4 {
 	background-position: -320px -512px;
 }
 
-.monumenta-Rune-of-Dominion {
+.monumenta-Rogue-Charm-Rare-5 {
 	background-position: -384px -512px;
 }
 
-.monumenta-Rune-of-Rejection {
+.monumenta-Royal-Jewel {
 	background-position: -448px -512px;
 }
 
-.monumenta-Scout-Charm-1 {
+.monumenta-Rune-of-Dominion {
 	background-position: -512px -512px;
 }
 
-.monumenta-Scout-Charm-2 {
+.monumenta-Rune-of-Rejection {
 	background-position: -576px -512px;
 }
 
-.monumenta-Scout-Charm-3 {
+.monumenta-Sanguine-Tendon {
 	background-position: -640px -512px;
 }
 
-.monumenta-Scout-Charm-4 {
+.monumenta-Scarlet-Haze {
 	background-position: -704px -512px;
 }
 
-.monumenta-Scout-Charm-5 {
+.monumenta-Scout-Charm-1 {
+	background-position: -768px -512px;
+}
+
+.monumenta-Scout-Charm-2 {
+	background-position: -832px -512px;
+}
+
+.monumenta-Scout-Charm-3 {
 	background-position: 0 -576px;
 }
 
-.monumenta-Scout-Charm-Rare-1 {
+.monumenta-Scout-Charm-4 {
 	background-position: -64px -576px;
 }
 
-.monumenta-Scout-Charm-Rare-2 {
+.monumenta-Scout-Charm-5 {
 	background-position: -128px -576px;
 }
 
-.monumenta-Scout-Charm-Rare-3 {
+.monumenta-Scout-Charm-Rare-1 {
 	background-position: -192px -576px;
 }
 
-.monumenta-Scout-Charm-Rare-4 {
+.monumenta-Scout-Charm-Rare-2 {
 	background-position: -256px -576px;
 }
 
-.monumenta-Scout-Charm-Rare-5 {
+.monumenta-Scout-Charm-Rare-3 {
 	background-position: -320px -576px;
 }
 
-.monumenta-Silver-Ring {
+.monumenta-Scout-Charm-Rare-4 {
 	background-position: -384px -576px;
 }
 
-.monumenta-Silver-Strings {
+.monumenta-Scout-Charm-Rare-5 {
 	background-position: -448px -576px;
 }
 
-.monumenta-Skull-of-Isharist {
+.monumenta-Serebrian-Lineage {
 	background-position: -512px -576px;
 }
 
-.monumenta-Soul-Synchronizer {
+.monumenta-Shaman-Charm-1 {
 	background-position: -576px -576px;
 }
 
-.monumenta-Spellbound-Spearhead {
+.monumenta-Shaman-Charm-2 {
 	background-position: -640px -576px;
 }
 
-.monumenta-Threads-of-Valor {
+.monumenta-Shaman-Charm-3 {
 	background-position: -704px -576px;
 }
 
-.monumenta-Tome-of-Broken-Vows {
+.monumenta-Shaman-Charm-4 {
+	background-position: -768px -576px;
+}
+
+.monumenta-Shaman-Charm-5 {
+	background-position: -832px -576px;
+}
+
+.monumenta-Shaman-Charm-Rare-1 {
 	background-position: 0 -640px;
 }
 
-.monumenta-True-Ice-Pendant {
+.monumenta-Shaman-Charm-Rare-2 {
 	background-position: -64px -640px;
 }
 
-.monumenta-Urn-of-Perpetuity {
+.monumenta-Shaman-Charm-Rare-3 {
 	background-position: -128px -640px;
 }
 
-.monumenta-Warlock-Charm-1 {
+.monumenta-Shaman-Charm-Rare-4 {
 	background-position: -192px -640px;
 }
 
-.monumenta-Warlock-Charm-2 {
+.monumenta-Shaman-Charm-Rare-5 {
 	background-position: -256px -640px;
 }
 
-.monumenta-Warlock-Charm-3 {
+.monumenta-Silver-Ring {
 	background-position: -320px -640px;
 }
 
-.monumenta-Warlock-Charm-4 {
+.monumenta-Silver-Strings {
 	background-position: -384px -640px;
 }
 
-.monumenta-Warlock-Charm-5 {
+.monumenta-Skull-of-Isharist {
 	background-position: -448px -640px;
 }
 
-.monumenta-Warlock-Charm-Rare-1 {
+.monumenta-Soul-Synchronizer {
 	background-position: -512px -640px;
 }
 
-.monumenta-Warlock-Charm-Rare-2 {
+.monumenta-Spearpoint-Shoot {
 	background-position: -576px -640px;
 }
 
-.monumenta-Warlock-Charm-Rare-3 {
+.monumenta-Spellbound-Spearhead {
 	background-position: -640px -640px;
 }
 
-.monumenta-Warlock-Charm-Rare-4 {
+.monumenta-Threads-of-Valor {
 	background-position: -704px -640px;
 }
 
-.monumenta-Warlock-Charm-Rare-5 {
+.monumenta-Tome-of-Broken-Vows {
+	background-position: -768px -640px;
+}
+
+.monumenta-Toxic-Steroid {
+	background-position: -832px -640px;
+}
+
+.monumenta-True-Ice-Pendant {
 	background-position: 0 -704px;
 }
 
-.monumenta-Warrior-Charm-1 {
+.monumenta-Urn-of-Perpetuity {
 	background-position: -64px -704px;
 }
 
-.monumenta-Warrior-Charm-2 {
+.monumenta-Warlock-Charm-1 {
 	background-position: -128px -704px;
 }
 
-.monumenta-Warrior-Charm-3 {
+.monumenta-Warlock-Charm-2 {
 	background-position: -192px -704px;
 }
 
-.monumenta-Warrior-Charm-4 {
+.monumenta-Warlock-Charm-3 {
 	background-position: -256px -704px;
 }
 
-.monumenta-Warrior-Charm-5 {
+.monumenta-Warlock-Charm-4 {
 	background-position: -320px -704px;
 }
 
-.monumenta-Warrior-Charm-Rare-1 {
+.monumenta-Warlock-Charm-5 {
 	background-position: -384px -704px;
 }
 
-.monumenta-Warrior-Charm-Rare-2 {
+.monumenta-Warlock-Charm-Rare-1 {
 	background-position: -448px -704px;
 }
 
-.monumenta-Warrior-Charm-Rare-3 {
+.monumenta-Warlock-Charm-Rare-2 {
 	background-position: -512px -704px;
 }
 
-.monumenta-Warrior-Charm-Rare-4 {
+.monumenta-Warlock-Charm-Rare-3 {
 	background-position: -576px -704px;
 }
 
-.monumenta-Warrior-Charm-Rare-5 {
+.monumenta-Warlock-Charm-Rare-4 {
 	background-position: -640px -704px;
+}
+
+.monumenta-Warlock-Charm-Rare-5 {
+	background-position: -704px -704px;
+}
+
+.monumenta-Warrior-Charm-1 {
+	background-position: -768px -704px;
+}
+
+.monumenta-Warrior-Charm-2 {
+	background-position: -832px -704px;
+}
+
+.monumenta-Warrior-Charm-3 {
+	background-position: 0 -768px;
+}
+
+.monumenta-Warrior-Charm-4 {
+	background-position: -64px -768px;
+}
+
+.monumenta-Warrior-Charm-5 {
+	background-position: -128px -768px;
+}
+
+.monumenta-Warrior-Charm-Rare-1 {
+	background-position: -192px -768px;
+}
+
+.monumenta-Warrior-Charm-Rare-2 {
+	background-position: -256px -768px;
+}
+
+.monumenta-Warrior-Charm-Rare-3 {
+	background-position: -320px -768px;
+}
+
+.monumenta-Warrior-Charm-Rare-4 {
+	background-position: -384px -768px;
+}
+
+.monumenta-Warrior-Charm-Rare-5 {
+	background-position: -448px -768px;
 }
 
