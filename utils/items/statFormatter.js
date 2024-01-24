@@ -26,7 +26,7 @@ const categories = {
     ],
     "misc": [
         ...["second_wind", "inferno", "regicide", "aptitude", "triage", "trivium", "looting",
-            "ice_aspect", "fire_aspect", "thunder_aspect", "wind_aspect", "earth_aspect"]
+            "ice_aspect", "fire_aspect", "thunder_aspect", "wind_aspect", "earth_aspect","reverb"]
             .map(entry => ({ name: entry, format: Formats.ENCHANT })),
         ...["intuition", "weightless", "radiant", "darksight", "void_tether", "resurrection", "infinity"]
             .map(entry => ({ name: entry, format: Formats.SINGLE_ENCHANT }))
@@ -78,7 +78,7 @@ const categories = {
         ...["ineptitude", "curse_of_shrapnel", "curse_of_vanishing", "projectile_fragility", "melee_fragility",
             "magic_fragility", "blast_fragility", "fire_fragility", "starvation"]
             .map(entry => ({ name: entry, format: Formats.CURSE })),
-        ...["two_handed", "curse_of_corruption", "curse_of_irreparability", "cumbersome"]
+        ...["two_handed", "curse_of_corruption", "curse_of_irreparability", "cumbersome","curse_of_instability"]
             .map(entry => ({ name: entry, format: Formats.SINGLE_CURSE }))
     ],
     "water": [
@@ -171,7 +171,7 @@ class StatFormatter {
             return "";
         }
         let formattedStats = [];
-        
+
         for (const category in categories) {
             for (const stat of categories[category]) {
                 if (stats[stat.name]) {
