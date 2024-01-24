@@ -107,7 +107,8 @@ export default function Builder({ build, itemData }) {
         { type: "magicDamagePercent", name: "builder.stats.magic.magicDamagePercent", percent: true },
         { type: "spellPowerPercent", name: "builder.stats.magic.spellPowerPercent", percent: true },
         { type: "spellDamage", name: "builder.stats.magic.spellDamage", percent: true },
-        { type: "spellCooldownPercent", name: "builder.stats.magic.spellCooldownPercent", percent: true }
+        { type: "spellCooldownPercent", name: "builder.stats.magic.spellCooldownPercent", percent: true },
+        { type: "divineJusticeDamage", name: "builder.stats.magic.divineJusticeDamage",percent:false}
     ];
 
 

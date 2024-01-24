@@ -28,7 +28,8 @@ const enabledBoxes = {
     cloaked: false,
     secondwind: false,
     // Other Buffs
-    versatile: false
+    versatile: false,
+    divinejustice: false
 };
 
 const extraStats = {
@@ -54,7 +55,7 @@ function groupMasterwork(items, itemData) {
             items.splice(i, 1);
         }
     }
-    
+
     // Re-insert the groups as arrays into the items array.
     Object.keys(masterworkItems).forEach(item => {
         items.push({ value: `${item}-${masterworkItems[item][0].masterwork}`, label: item });
@@ -168,7 +169,7 @@ export default function BuildForm({ update, build, parentLoaded, itemData }) {
         let mainhands = ["mainhand", "mainhand sword", "mainhand shield", "axe", "pickaxe", "wand", "scythe", "bow", "crossbow", "snowball", "trident"];
         let offhands = ["offhand", "offhand shield", "offhand sword"];
         let actualItemType = (mainhands.includes(itemType.toLowerCase())) ? "mainhand" : (offhands.includes(itemType.toLowerCase())) ? "offhand" : itemType.toLowerCase();
-        
+
         const manualBuildString = encodeURI(decodeURI(makeBuildString()).replace(newBuild[actualItemType.toLowerCase()], `${newActiveItem.name}-${newActiveItem.masterwork}`));
         newBuild[actualItemType.toLowerCase()] = `${newActiveItem.name}-${newActiveItem.masterwork}`;
         itemRefs[actualItemType.toLowerCase()].current.setValue({ "value": `${newActiveItem.name}-${newActiveItem.masterwork}`, "label": newActiveItem.name });
@@ -307,6 +308,7 @@ export default function BuildForm({ update, build, parentLoaded, itemData }) {
                 <CheckboxWithLabel name="Tempo" checked={false} onChange={checkboxChanged} />
                 <CheckboxWithLabel name="Cloaked" checked={false} onChange={checkboxChanged} />
                 <CheckboxWithLabel name="Versatile" checked={false} onChange={checkboxChanged} />
+                <CheckboxWithLabel name="DivineJustice" checked={false} onChange={checkboxChanged} />
             </div>
             <div className="row justify-content-center my-2">
                 <div className="col text-center">

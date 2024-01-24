@@ -16,7 +16,7 @@ class Stats {
 
         this.fullItemData = {};
         types.forEach(type => {
-            this.fullItemData[type] = (this.itemNames[type] != "None") ? 
+            this.fullItemData[type] = (this.itemNames[type] != "None") ?
                 (itemData[this.itemNames[type]]) ? itemData[this.itemNames[type]] : {masterwork: 0} : {masterwork: 0};
         });
 
@@ -107,6 +107,7 @@ class Stats {
         this.iframeDPS = ((attackSpeed >= 2) ? attackDamage * 2 : attackDamage * attackSpeed).toFixed(2);
         this.iframeCritDPS = ((attackSpeed >= 2) ? attackDamageCrit * 2 : attackDamageCrit * attackSpeed).toFixed(2);
 
+
         // Projectile Stats
         let projectileDamage = this.sumNumberStat(this.itemStats.mainhand, "projectile_damage_base", this.projectileDamage)
             * this.projectileDamagePercent.val
@@ -134,6 +135,11 @@ class Stats {
         this.spellCooldownPercent = this.spellCooldownPercent
             .mul(Math.pow(0.95, this.aptitude + this.ineptitude), false)
             .toFixedPerc(2);
+        // Divine Justice (look, I would argue it's melee, but it's also magic, so I'm just putting it below both)
+        if (this.enabledBoxes.divinejustice) {
+          let divineJusticeDamage = ((attackDamageCrit * 0.2) + 5) * 1.15 * (this.magicDamagePercent/100);
+          this.divineJusticeDamage = divineJusticeDamage.toFixed(2);
+        }
     }
 
     calculateDefenseStats() {
@@ -194,7 +200,7 @@ class Stats {
         damageTaken.base = damageTaken.base
             * (1 - (this.tenacity * 0.005))
             * (this.extraResistanceMultiplier.val);
-        
+
         damageTaken.secondwind = damageTaken.secondwind
             * (1 - (this.tenacity * 0.005))
             * (this.extraResistanceMultiplier.val);
@@ -490,6 +496,7 @@ class Stats {
         this.spellPowerPercent = new Percentage(100),
         this.spellDamage = new Percentage(100),
         this.spellCooldownPercent = new Percentage(100),
+        this.divineJusticeDamage = 0,
 
         this.aptitude = 0,
         this.ineptitude = 0,
