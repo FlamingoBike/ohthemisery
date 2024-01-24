@@ -221,6 +221,7 @@
     "builder.stats.magic.spellPowerPercent": "Spell Power",
     "builder.stats.magic.spellDamage": "Total Magic Damage",
     "builder.stats.magic.spellCooldownPercent": "Cooldown Duration",
+    "builder.stats.magic.divineJusticeDamage": "Divine Justice Damage",
 
     "builder.multipliers.damage": "Damage Multipliers",
     "builder.multipliers.resistance": "Resistance Multipliers",
